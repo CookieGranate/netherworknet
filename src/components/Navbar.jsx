@@ -11,7 +11,7 @@ const Navbar = () => {
                         Netherwork.net
                     </Link>
                 </div>
-            </nav>test
+            </nav>
         </header>
     )
 }
