@@ -1,5 +1,5 @@
 import { useState } from 'react'
-const { BrowserRouter, Routes, Route } = require('react-router-dom')
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 // pages
 import Home from './pages/Home'
