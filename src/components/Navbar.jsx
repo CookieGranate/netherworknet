@@ -11,8 +11,15 @@ const Navbar = () => {
                         Netherworks.net
                     </Link>
                 </div>
-                <div className="absolute left-1/2" id="middle">
-
+                <div className="flex justify-center" id="middle">
+                    <ul>
+                        <li>
+                            <Link to={'/download'}>download</Link>
+                        </li>
+                        <li>
+                            <Link to={'/'}>adaf</Link>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
