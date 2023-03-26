@@ -2,6 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'sofiapro';
+  src: url('./font/sofiapro-light.otf');
+}
+
+* {
+  font-family: 'sofiapro';
+}
+
+/* NAVBAR */
+
+#middle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#middle li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#middle li a {
+  color: #fff;
+}
+
+/* NAVBAR END */
+
+/* LOGIN BTN */
+
+#loginbtn {
+  border-radius: 5px;
+  border: 2px solid #bcbcbc;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+}
+
+
+/* LOGIN BTN END */
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
