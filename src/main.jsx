@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './css/general.css'
 import './index.css'
 import App from './App'
 
